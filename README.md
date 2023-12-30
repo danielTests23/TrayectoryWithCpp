@@ -6,6 +6,9 @@ Hello, this is a guide to learn **C++**, the idea is while I'm learning about th
 
 I'll hope you like this guide!
 
+> [!IMPORTANT]  
+> This is a guide to help others recopilating info from diverse sites, It's more for personal studying, if you want to help building this guide, just mail me.
+
 ### Sections
 
 #### Bash  
