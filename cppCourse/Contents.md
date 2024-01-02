@@ -8,9 +8,19 @@ If there's a 🧑‍💻 in the box, I'm working on it.
 - [ ] Loops
 - [ ] Arrays
 - [ ] Vector
-- [ ] Graphs
+- [ ] Set
+- [ ] Multiset
+- [ ] POO
 - [ ] Queue
 - [ ] Dequeue
 - [ ] Array (std)
 - [ ] Stack
 - [ ] Heap
+- [ ] Pointers
+- [ ] References
+- [ ] Graphs
+- [ ] Trees
+- [ ] BFS
+- [ ] DFS
+- [ ] Linked List
+- [ ] Big O Notation
