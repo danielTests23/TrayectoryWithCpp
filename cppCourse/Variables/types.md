@@ -38,7 +38,10 @@ Char has 4 different types that are differenced for the size in memory that the 
 
 This are the 4 types of char, you can check it below:
 - [Char](#char)
-
+- [wchar_t](#wchar_t)
+- [char16_t](#char16_t)
+- [char32_t](#char32_t)
+- [Unsigned and Signed char](#unsigned-char-and-signed-char)
 ---
 
 ### Char 
@@ -74,4 +77,56 @@ char translation {char(d)};
 **More Examples**
 - [Creation of a char](./Scripts/charExample.cpp)
 - [Conversion of a char](./Scripts/charConversionExample.cpp)
+
+
+### wchar_t
+
+This type of char is used to represent wide characters and can be of variable size, usually 2 or 4 bytes.
+
+**Syntax**
+
+```cpp
+wchar_t  ch2{ L'a' };
+```
+
+In this case, you'll need to use before the value the letter `L`,because it's used as a prefix for a wide character.
+
+
+### char16_t
+
+This type of char is used when you need to use 16-bit wide characters.
+
+**Syntax**
+
+```cpp
+char16_t ch3{ u'a' };
+```
+
+In this case, you'll need to use before the value the letter `u`,because it's used as a prefix for a 16-bit wide characters.
+
+### char32_t
+
+This type of char is used when you need to use 32-bit wide characters.
+
+**Syntax**
+
+```cpp
+char32_t ch3{ U'a' };
+```
+
+In this case, you'll need to use before the value the letter `U`,because it's used as a prefix for a 32-bit wide characters.
+
+
+### Unsigned char and signed char
+
+This types are very useful, because, if you are using character types as numbers signed char lend you to work in a range from -127 to 127 and the unsigned char from 0 to 255
+
+**Syntax**
+```cpp
+unsigned char image[100][100];
+image[0][0] = 150;  // This wont be possible with a signed char
+image[1][1] = 100;
+signed char pixelDifference = image[1][1] - image[0][0]; // rest with a negative value
+```
+
 
